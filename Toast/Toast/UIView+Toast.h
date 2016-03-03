@@ -143,6 +143,11 @@ extern const NSString * CSToastPositionBottom;
 - (void)hideToastActivity;
 
 /**
+ Dismisses the active toast view.
+ */
+- (void)hideToast:(UIView *)toast;
+
+/**
  Displays any view as toast using the default duration and position.
  
  @param toast The view to be displayed as toast

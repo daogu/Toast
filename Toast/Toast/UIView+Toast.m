@@ -381,6 +381,10 @@ static const NSString * CSToastQueueKey             = @"CSToastQueueKey";
     }
 }
 
+-(void)hideToast:(UIView *)toast {
+    [self cs_hideToast:toast];
+}
+
 #pragma mark - Helpers
 
 - (CGPoint)cs_centerPointForPosition:(id)point withToast:(UIView *)toast {
